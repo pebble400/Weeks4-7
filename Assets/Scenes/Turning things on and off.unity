@@ -707,7 +707,7 @@ MonoBehaviour:
   script: {fileID: 1756989095}
   go: {fileID: 55208576}
   audioSource: {fileID: 1912926546}
-  clip: {fileID: 8300000, guid: 9d71f9b5efa1ce54aa511d4f663d01fb, type: 3}
+  clip: {fileID: 8300000, guid: 3d578ad67e813ba4db72d0f385419c41, type: 3}
 --- !u!212 &1756989096
 SpriteRenderer:
   m_ObjectHideFlags: 0
