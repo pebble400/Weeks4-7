@@ -9,6 +9,7 @@ public class EnableDisable : MonoBehaviour
     public GameObject go;
     public AudioSource audioSource;
     public AudioClip clip;
+    public SpriteRenderer bird;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,9 @@ public class EnableDisable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        bird.enabled = false;
+         
         if (Input.GetMouseButtonDown(0))
         {
             //sr.enabled = false;
@@ -32,16 +36,24 @@ public class EnableDisable : MonoBehaviour
             //sr.enabled = true;
             //script.enabled = true;
             go.SetActive(true);
+           
         }
 
         if (Input.GetKey(KeyCode.Space))
         {
+
             if(audioSource.isPlaying == false)
             {
-               audioSource.PlayOneShot(clip);
+               audioSource.PlayOneShot(clip); 
             }
+            
             //audioSource.Play();
             //audioSource.PlayOneShot(clip);
         }
+        if (audioSource.isPlaying == true)
+        {
+            bird.enabled = true;
+        }
+
     }
 }
