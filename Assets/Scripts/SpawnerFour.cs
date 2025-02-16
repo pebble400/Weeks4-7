@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spawner : MonoBehaviour
+public class SpawnerFour : MonoBehaviour
 {
     public GameObject prefab;
     // Start is called before the first frame update
@@ -16,9 +16,9 @@ public class Spawner : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-           GameObject newFood = Instantiate(prefab);
+            GameObject newFood = Instantiate(prefab);
 
-            Destroy(newFood, 5);
+            Destroy(newFood, 8);
         }
     }
 }
