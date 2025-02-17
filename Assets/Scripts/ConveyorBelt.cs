@@ -12,7 +12,7 @@ public class ConveyorBelt : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() //simple movement script to make the foods move across the screen while on the conveyor belt to make it look like the conveyor belt is the thing thats making the food move
     {
         Vector3 pos = transform.position;
         pos.x += speed * Time.deltaTime;

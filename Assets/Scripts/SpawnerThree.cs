@@ -16,9 +16,9 @@ public class SpawnerThree : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject newFood = Instantiate(prefab);
+            GameObject newFood = Instantiate(prefab);//pizza spawner 
 
-            Destroy(newFood, 7);
+            Destroy(newFood, 7);//same thing as the chicken, made it move slower so it doesn't overlap which meant I had to adjust the despawning time
         }
     }
 }

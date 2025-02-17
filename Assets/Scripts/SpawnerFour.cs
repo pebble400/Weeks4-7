@@ -16,9 +16,9 @@ public class SpawnerFour : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject newFood = Instantiate(prefab);
+            GameObject newFood = Instantiate(prefab);//salad spawner
 
-            Destroy(newFood, 8);
+            Destroy(newFood, 8);//same thing as pizza and chicken
         }
     }
 }
