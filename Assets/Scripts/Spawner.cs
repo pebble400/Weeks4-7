@@ -22,7 +22,7 @@ public class Spawner : MonoBehaviour
 
            // if(myScale != null)
            // {
-               // myScale.sizeScale = 1f;
+               // myScale.sizeScale;
             //}
 
             Destroy(newFood, 5);
