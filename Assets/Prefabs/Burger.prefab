@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 124677855122332038}
   - component: {fileID: 3112080872306603729}
   - component: {fileID: 4191701585345314393}
+  - component: {fileID: -3849122066409598363}
   m_Layer: 0
   m_Name: Burger
   m_TagString: Untagged
@@ -98,3 +99,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1.3
+--- !u!114 &-3849122066409598363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5468560005279666319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af89ff413ed6d5340b823c71dfafabf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sizeScale: 1

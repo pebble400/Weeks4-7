@@ -18,6 +18,13 @@ public class Spawner : MonoBehaviour
         {
            GameObject newFood = Instantiate(prefab);
 
+           // FoodScale myScale = newFood.GetComponent<FoodScale>();
+
+           // if(myScale != null)
+           // {
+               // myScale.sizeScale = 1f;
+            //}
+
             Destroy(newFood, 5);
         }
     }
